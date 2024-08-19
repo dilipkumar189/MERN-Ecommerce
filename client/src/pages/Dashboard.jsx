@@ -27,7 +27,7 @@ const Dashboard = () => {
         {
           method: "POST",
           headers: {
-            Authorization: `Bearer ${accessToken}`, // Include the access token in the request headers
+            Authorization: `Bearer ${accessToken}`, 
           }, // Adjust the method as needed
           // Add any required headers or options
         }
